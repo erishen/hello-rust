@@ -1,9 +1,10 @@
+use erishen_crate::add_one;
 use rand::Rng;
 use std::io;
 use std::cmp::Ordering;
 
 fn main() {
-    println!("Guess the number!");
+    println!("Guess the number like {}!", add_one(10));
 
     let secret_number = rand::thread_rng().gen_range(1..=100);
     // println!("The secret number is: {secret_number}");

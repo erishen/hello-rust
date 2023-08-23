@@ -9,6 +9,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
+name = "erishen_crate"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f26ce7374339b40b72379e8a6f501081bc03a2110c76d4bd28da1ec941c8cb44"
+
+[[package]]
 name = "ferris-says"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -34,6 +40,7 @@ dependencies = [
 name = "hello-rust"
 version = "0.1.0"
 dependencies = [
+ "erishen_crate",
  "ferris-says",
  "rand",
 ]
